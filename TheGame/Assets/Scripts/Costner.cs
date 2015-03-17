@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 using ProjectLokaverkefni.Models.Transfer;
 using System.Text;
 
-
+//Test
 public class Costner : NetworkScript
 {
 	public static int userid;
