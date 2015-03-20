@@ -1,0 +1,33 @@
+language: csharp
+#solution: 
+#install:
+#  - nuget restore solution-name.sln
+#  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+#script:
+#  - xbuild /p:Configuration=Release solution-name.sln
+#  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./MyPoject.Tests/bin/Release/MyProject.Tests.dll
+# http://docs.travis-ci.com/user/languages/csharp/
+
+#env:
+# global:
+# - secure: oY8RqEfKLt8yT21HHL2gti8uFpma0dKQK2XgJ/pO4ipzDCCd7t7aP46+qYylPAskIWqA5hATINVpHk2De/NtdBaIZGyrncv1wSPF5B24lIeeqAKApln4lDCl2mhMw0pe8r2ORhCuCPj7KIyIVJoa2EGwtw8C71quYJcT8oqW1r0=
+#before_deploy:
+#- ./gradlew check
+
+#- sh bin/b4dploy
+#before_install:
+#- wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+#- git remote add heroku git@heroku.com:hilmario10.git
+#- export HEROKU_API_KEY=oY8RqEfKLt8yT21HHL2gti8uFpma0dKQK2XgJ/pO4ipzDCCd7t7aP46+qYylPAskIWqA5hATINVpHk2De/NtdBaIZGyrncv1wSPF5B24lIeeqAKApln4lDCl2mhMw0pe8r2ORhCuCPj7KIyIVJoa2EGwtw8C71quYJcT8oqW1r0=
+#install:
+#- gem install heroku
+#after_success:
+#- ./gradlew selenium
+#- ./gradlew cobertura
+#- echo "Host heroku.com" >> ~/.ssh/config
+#- echo "   StrictHostKeyChecking no" >> ~/.ssh/config
+#- echo "   CheckHostIP no" >> ~/.ssh/config
+#- echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config
+#- heroku keys:clear
+#- yes | heroku keys:add
+#- yes | git push -f heroku master

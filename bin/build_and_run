@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ ! -d classes ]; then
+  mkdir classes
+fi
+
+./bin/clean
+./bin/compile
+./bin/run

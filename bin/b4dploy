@@ -1,0 +1,2 @@
+#!/bin/bash
+export STAGING_SERVER='http://hilmario10.herokuapp.com/'
