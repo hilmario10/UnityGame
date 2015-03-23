@@ -6,7 +6,14 @@ language: csharp
 #script:
 #  - xbuild /p:Configuration=Release solution-name.sln
 #  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./MyPoject.Tests/bin/Release/MyProject.Tests.dll
+
+
+# http://stackoverflow.com/questions/16751772/how-do-i-use-travis-ci-with-c-sharp-or-f
+# http://nicolas.guelpa.me/blog/2015/01/18/travis-ci-csharp.html
 # http://docs.travis-ci.com/user/languages/csharp/
+
+
+
 
 #env:
 # global:
